@@ -34,6 +34,6 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   var fineKittens = [...kittens];
-  fineKittens.shift(name)
+  fineKittens.unshift(name)
   return fineKittens
 }
