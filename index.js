@@ -43,3 +43,9 @@ function removeLastKitten(name) {
   fineKittens.pop(name)
   return fineKittens
 }
+
+function removeFirstKitten(name) {
+  var fineKittens = [...kittens];
+  fineKittens.slice(name)
+  return fineKittens
+}
