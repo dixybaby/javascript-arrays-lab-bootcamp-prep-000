@@ -37,3 +37,9 @@ function prependKitten(name) {
   fineKittens.unshift(name)
   return fineKittens
 }
+
+function removeLastKitten(name) {
+  var fineKittens = [...kittens];
+  fineKittens.pop(name)
+  return fineKittens
+}
