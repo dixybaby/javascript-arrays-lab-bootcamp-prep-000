@@ -46,6 +46,6 @@ function removeLastKitten(name) {
 
 function removeFirstKitten(name) {
   var fineKittens = [...kittens];
-  fineKittens.slice(name)
+  fineKittens.shift(name)
   return fineKittens
 }
