@@ -31,3 +31,8 @@ function appendKitten(name) {
   fineKittens.push(name)
   return fineKittens
 }
+
+function prependKitten(name) {
+  fineKittens.shift(name);
+  return fineKittens
+}
