@@ -6,7 +6,7 @@ function kittens() {
   return kittens
 }
 
-function destructivelyAppendKitten() {
-  appendKitten();
+function destructivelyAppendKitten(name) {
+  kittens.push(name);
   return kittens
 }
