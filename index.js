@@ -33,7 +33,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  fineKittens = [...kittens];
+  var fineKittens = [...kittens];
   fineKittens.shift(name)
   return fineKittens
 }
